@@ -3,7 +3,7 @@ export type CityType = {
     governmentBuildings: GovernmentBuildingsCityType[]
 }
 
-type HousesCityType = {
+export type HousesCityType = {
     id?: number
     buildedAt: number
     repaired: boolean
