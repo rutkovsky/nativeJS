@@ -4,6 +4,7 @@ export type CityType = {
 }
 
 type HousesCityType = {
+    id?: number
     buildedAt: number
     repaired: boolean
     address: {
@@ -14,7 +15,8 @@ type HousesCityType = {
     }
 }
 
-type GovernmentBuildingsCityType = {
+export type GovernmentBuildingsCityType = {
+    id?: number
     type: string
     budget: number
     staffCount: number

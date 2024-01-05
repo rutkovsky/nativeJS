@@ -1,11 +1,13 @@
 import {CityType} from './02';
+import {demolishHousesOnTheStreet, getBuildingsWithStaffCountGreaterThen} from './04'
 
-let city: CityType;
+let city: CityType
 
 beforeEach(() => {
         city = {
             houses: [
                 {
+                    id: 1,
                     buildedAt: 2020,
                     repaired: false,
                     address: {
@@ -16,6 +18,7 @@ beforeEach(() => {
                     }
                 },
                 {
+                    id: 2,
                     buildedAt: 2008,
                     repaired: false,
                     address: {
@@ -26,18 +29,20 @@ beforeEach(() => {
                     }
                 },
                 {
+                    id: 3,
                     buildedAt: 2020,
                     repaired: false,
                     address: {
                         number: 200,
                         street: {
-                            title: 'Hogwarts street',
+                            title: 'Happy street',
                         }
                     }
                 },
             ],
             governmentBuildings: [
                 {
+                    id: 1,
                     type: 'HOSPITAL',
                     budget: 200000,
                     staffCount: 200,
@@ -48,6 +53,7 @@ beforeEach(() => {
                     }
                 },
                 {
+                    id: 2,
                     type: 'FIRE-STATION',
                     budget: 500000,
                     staffCount: 1000,
@@ -62,35 +68,21 @@ beforeEach(() => {
     }
 )
 
-test('city should contains 3 houses', () => {
-    expect(city.houses.length).toBe(3);
 
-    expect(city.houses[0].buildedAt).toBe(2020);
-    expect(city.houses[0].repaired).toBe(false);
-    expect(city.houses[0].address.number).toBe(100);
-    expect(city.houses[0].address.street.title).toBe('White street');
+// 01. Дополните тип HouseType (добавьте порядковый id от 1 и по возрастанию)
+// 02. Создайте в том же файле ещё одну функцию, чтобы тесты прошли
+test('House should be destroyed', () => {
+    demolishHousesOnTheStreet(city, 'Happy street');
 
-    expect(city.houses[1].buildedAt).toBe(2008);
-    expect(city.houses[1].repaired).toBe(false);
-    expect(city.houses[1].address.number).toBe(100);
-    expect(city.houses[1].address.street.title).toBe('Happy street');
+    expect(city.houses.length).toBe(1);
+    expect(city.houses[0].id).toBe(1);
 
-    expect(city.houses[2].buildedAt).toBe(2020);
-    expect(city.houses[2].repaired).toBe(false);
-    expect(city.houses[2].address.number).toBe(200);
-    expect(city.houses[2].address.street.title).toBe('Hogwarts street');
 })
 
-test('city should contains hospital and fire station', () => {
-    expect(city.governmentBuildings.length).toBe(2);
+// 03. Массив строений, где работают больше 500 людей
+test('buildings with correct staff count', () => {
+    let buildings = getBuildingsWithStaffCountGreaterThen(city.governmentBuildings, 500)
 
-    expect(city.governmentBuildings[0].type).toBe('HOSPITAL')
-    expect(city.governmentBuildings[0].budget).toBe(200000)
-    expect(city.governmentBuildings[0].staffCount).toBe(200)
-    expect(city.governmentBuildings[0].address.street.title).toBe('Central Str')
-
-    expect(city.governmentBuildings[1].type).toBe('FIRE-STATION')
-    expect(city.governmentBuildings[1].budget).toBe(500000)
-    expect(city.governmentBuildings[1].staffCount).toBe(1000)
-    expect(city.governmentBuildings[1].address.street.title).toBe('Souths park str')
+    expect(buildings.length).toBe(1);
+    expect(buildings[0].type).toBe('FIRE-STATION')
 })

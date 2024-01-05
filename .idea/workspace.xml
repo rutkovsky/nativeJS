@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e672d9-4d00-4356-a9bb-08b9584f90c2" name="Changes" comment="- native 02">
-      <change afterPath="$PROJECT_DIR$/src/tests/03.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/03.ts" afterDir="false" />
+    <list default="true" id="d9e672d9-4d00-4356-a9bb-08b9584f90c2" name="Changes" comment="- native 03">
+      <change afterPath="$PROJECT_DIR$/src/tests/04.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/04.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/01.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/01.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/02.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703318484528</updated>
-      <workItem from="1703318491192" duration="11394000" />
+      <workItem from="1703318491192" duration="12226000" />
+      <workItem from="1704470651986" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="- native 02">
       <created>1703420168137</created>
@@ -110,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703421320336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- native 02">
+      <created>1703429606795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703429606795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- native 03">
+      <created>1703429631718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703429631718</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- native 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="- native 02" />
+    <MESSAGE value="- native 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="- native 03" />
   </component>
 </project>
