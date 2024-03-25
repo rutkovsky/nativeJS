@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e672d9-4d00-4356-a9bb-08b9584f90c2" name="Changes" comment="- native 04">
-      <change afterPath="$PROJECT_DIR$/src/tests/05.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/05.ts" afterDir="false" />
+    <list default="true" id="d9e672d9-4d00-4356-a9bb-08b9584f90c2" name="Changes" comment="- native 05">
+      <change afterPath="$PROJECT_DIR$/src/tests/06.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/07.test..ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IT/repository/NativeJS/my-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT/repository/NativeJS/my-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +67,14 @@
       <option name="presentableId" value="Default" />
       <updated>1703318484528</updated>
       <workItem from="1703318491192" duration="12226000" />
-      <workItem from="1704470651986" duration="4926000" />
+      <workItem from="1704470651986" duration="5006000" />
+      <workItem from="1706629190476" duration="2279000" />
+      <workItem from="1708014979401" duration="648000" />
+      <workItem from="1708101808180" duration="596000" />
+      <workItem from="1708244450062" duration="18214000" />
+      <workItem from="1710780783214" duration="615000" />
+      <workItem from="1711208818881" duration="2261000" />
+      <workItem from="1711381317758" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="- native 02">
       <created>1703420168137</created>
@@ -133,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704474246679</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- native 05">
+      <created>1704476056720</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704476056720</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +179,7 @@
     <MESSAGE value="- native 02" />
     <MESSAGE value="- native 03" />
     <MESSAGE value="- native 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="- native 04" />
+    <MESSAGE value="- native 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="- native 05" />
   </component>
 </project>
